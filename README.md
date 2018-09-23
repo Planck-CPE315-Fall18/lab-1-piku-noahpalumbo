@@ -1,8 +1,8 @@
 # CPE 315 Lab 1 -- Piku
 
-##Noah Palumbo
+## Noah Palumbo
 
-###Lab Status: Complete
+### Lab Status: Complete
 
 **Execution Instructions**
 Compile using: "gcc -o piku piku.s
