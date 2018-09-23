@@ -1,19 +1,12 @@
 # CPE 315 Lab 1 -- Piku
 
-## Things to include in your README
+##Noah Palumbo
 
-* Your name. Indicate if you go by a nickname.
-* Status of your lab
-  * Complete, partially complete, incomplete
-  * If not complete, what does work? What doesn't?
-* Compilation and execution instructions
-  * `gcc -o piku piku.s` or `make`
-  * `./piku`
-* Issues that you encountered along the way, and anything you have questions about.
+###Lab Status: Complete
 
-These README files have a fairly rich _Markdown_ environment. You should use
-markdown syntax to format your README files in such a way that they look
-professional, and are easy to read. Use the 
-[Markdown Guide](https://guides.github.com/features/mastering-markdown/), and
-have fun! :octocat:
+**Execution Instructions**
+Compile using: "gcc -o piku piku.s
+Execute using: "./piku"
 
+**Issues Encountered**
+For a while I was having trouble with the printf commands overwriting the registers, so I ended up refilling r0 and using printf threetimes. A loop could have worked as well.
